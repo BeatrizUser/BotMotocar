@@ -32,3 +32,8 @@ export async function getPlanos(int){
     return result;
   
 };
+async function teste(index){
+  var data = await getPlanos(index)
+  console.log(data)
+}
+teste(1)
